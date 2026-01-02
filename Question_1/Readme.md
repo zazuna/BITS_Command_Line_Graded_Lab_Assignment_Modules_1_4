@@ -14,11 +14,12 @@ I used:
 - `id`     to print both currently logged-in username and all groups
 
 ---
-```md
+
 ### Commands
 ```bash
 whoami
 groups
+```
 
 ### Screenshot
 ![Terminal](Screenshots/Question_1_1.png)
