@@ -10,15 +10,18 @@
 ### What I did
 I used:
 - `whoami` to print the currently logged-in username
+- `who am i` to print the currently logged-in username, terminal session, when login session started
 - `groups` to print all groups my user belongs to  
-- `id`     to print both currently logged-in username and all groups
+- `id` to print both currently logged-in username and all groups
 
 ---
 
 ### Commands
 ```bash
 whoami
+who am i
 groups
+id
 ```
 
 ### Screenshot
