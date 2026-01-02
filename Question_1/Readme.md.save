@@ -69,22 +69,3 @@ cat user_info.txt
 
 ### Screenshot
 ![Terminal](Screenshots/Question_1_3.png)
-
-## Question_1_4 - File Integrity Check
-
-### Task
-**Display the number of characters present in `user_info.txt`.**
-
-### What I did
-I used:
-- `wc -m` to count the number of characters in the file.
-- `wc -c` to count the number of bytes in the file. Which is usually the same as the number of characters for standard ASCII text.
-
-### Commands
-```bash
-wc -m user_info.txt
-wc -c user_info.txt
-```
-
-### Screenshot
-![Terminal](Screenshots/Question_1_4.png)
