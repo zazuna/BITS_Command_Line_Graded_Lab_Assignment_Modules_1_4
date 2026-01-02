@@ -11,14 +11,14 @@
 I used:
 - `whoami` to print the currently logged-in username
 - `groups` to print all groups my user belongs to  
-(Optional alternative: `id` shows both in one command.)
+- `id`     to print both currently logged-in username and all groups
 
 ---
-
+```md
 ### Commands
 ```bash
 whoami
-groups```
+groups
 
 ### Screenshot
 ![Terminal](Screenshots/Question_1_1.png)
