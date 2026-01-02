@@ -49,3 +49,23 @@ ls -la
 
 ### Screenshot
 ![Terminal](Screenshots/Question_1_2.png)
+
+## Question_1_3 - Environment Confirmation File
+
+### Task
+**Create a file named `user_info.txt` and write the line: "Linux user environment verified"**
+
+### What I did
+I used:
+- `echo` to output the specific string of text.
+- The `>` redirection operator to write that output directly into a new file named `user_info.txt`.
+- `cat` to verify the file was created correctly and contains the text.
+
+### Commands
+```bash
+echo "Linux user environment verified" > user_info.txt
+cat user_info.txt
+```
+
+### Screenshot
+![Terminal](Screenshots/Question_1_3.png)
