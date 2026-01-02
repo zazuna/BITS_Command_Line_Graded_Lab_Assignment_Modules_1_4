@@ -88,3 +88,25 @@ wc -c user_info.txt
 
 ### Screenshot
 ![Terminal](Screenshots/Question_1_4.png)
+
+## Question_1_5 - Learning the Tools
+
+### Task
+**Access the manual page of the `mkdir` command. Identify one useful option and briefly explain what it does.**
+
+### What I did
+I used:
+- man `mkdir` to open the manual page for the make directory command.
+- I identified the `-p` (parents) option.
+- Explanation: The `-p` flag allows you to create parent directories as needed. For example, `mkdir -p a/b/c` will create directory "a", then "b" inside it, and "c" inside that, without throwing an error if "a" or "b" do not exist yet.
+- ls -lR to list the contents of the directory in "long" format, which shows permissions, owner, size and modification date, to check results of `mkdir -p a/b/c`.
+
+### Commands
+```bash
+man mkdir
+mkdir -p a/b/c
+ls -lR
+```
+
+### Screenshot
+![Terminal](Screenshots/Question_1_5.png)
