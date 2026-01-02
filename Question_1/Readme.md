@@ -110,3 +110,45 @@ ls -lR
 
 ### Screenshot
 ![Terminal](Screenshots/Question_1_5.png)
+
+## Question_1_6 - Home Directory Inspection
+
+### Task
+**List the contents of your home directory sorted alphabetically.**
+
+### What I did
+I used:
+- `ls` followed by the tilde ~, which represents the home directory.
+- By default, `ls` sorts output alphabetically. I can also use `ls -1 ~` to list them in a single column for easier reading.
+
+### Commands
+```bash
+ls ~
+ls -1 ~
+```
+
+### Screenshot
+![Terminal](Screenshots/Question_1_6.png)
+
+## Question_1_7 - Log Investigation
+
+### Task
+**Seach for the word "admin" inside a file named `log.txt` and display only the matching lines.**
+
+### What I did
+I used:
+- `cat > log.txt` to create a file named `log.txt` and write some text into it.
+- `grep` to search for specific text patterns within a file.
+- I passed the search term `"admin" `and the filename log.txt.
+- This command prints only the lines where "admin" appears.
+- `grep -n` to display the line numbers of the matching lines.
+
+### Commands
+```bash
+cat > log.txt
+grep "admin" log.txt
+grep -n "admin" log.txt
+```
+
+### Screenshot
+![Terminal](Screenshots/Question_1_7.png)
