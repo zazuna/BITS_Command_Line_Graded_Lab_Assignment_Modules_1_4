@@ -26,3 +26,26 @@ id
 
 ### Screenshot
 ![Terminal](Screenshots/Question_1_1.png)
+
+## Question_1_2 - Workspace Validation
+
+### Task
+**Display the current working directory and list all files and directories in that location using long format listing.**
+
+___
+
+### What I did
+I used:
+- `pwd` (print working directory) to show the full path of the directory I am currently in.
+- `ls -l` to list the contents of the directory in "long" format, which shows pwermissions, owner, size and modification date.
+- `ls -la` to list the contents of the directory in "long" format, which shows permissions, owner, size, and modification date along with hidden files.
+
+### Commands
+```bash
+pwd
+ls -l
+ls -la
+```
+
+### Screenshot
+![Terminal](Screenshots/Question_1_2.png)
