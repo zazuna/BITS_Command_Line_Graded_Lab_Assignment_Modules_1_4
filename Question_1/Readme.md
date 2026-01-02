@@ -1,12 +1,13 @@
-# Question 1 — User Identity Verification
+# Question 1
+## Question 1_1 — User Identity Verification
 
-## Task
+### Task
 **Display your currently logged-in username and all groups your user account belongs to.**  
 ✅ Your name/login ID must appear in the output.
 
 ---
 
-## What I did
+### What I did
 I used:
 - `whoami` to print the currently logged-in username
 - `groups` to print all groups my user belongs to  
@@ -14,10 +15,10 @@ I used:
 
 ---
 
-## Commands
+### Commands
 ```bash
 whoami
-groups
+groups```
 
-# Optional (single command)
-id
+### Screenshot
+![Terminal](Screenshots/Question_1_1.png)
